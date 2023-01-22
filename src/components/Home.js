@@ -27,7 +27,7 @@ const Home = () => {
             className="leading-normal"
           ></Typed>
         </h2>
-        <h3 className="text-2xl text-cyan-400 leading-relaxed">
+        <h3 className="text-xl md:text-2xl text-cyan-400 leading-relaxed">
           I can work with HTML, CSS, JS, ReactJS, SQL, GitHub and new technologies.
         </h3>
 
