@@ -8,6 +8,7 @@ import Projects from "./components/Projects";
 import { BsArrowUpCircleFill } from "react-icons/bs";
 import { Link } from "react-scroll";
 import Experience from "./components/Experience";
+import Footer from "./components/Footer";
 
 export const Portfolio = React.createContext();
 
@@ -40,6 +41,7 @@ function App() {
         <Skills />
         <Projects />
         <Experience />
+        <Footer />
         {goToTop && (
           <Link to="home" smooth={true} duration={500}>
             <button className="hidden md:block fixed right-8 bottom-5 cursor-pointer text-white text-5xl">

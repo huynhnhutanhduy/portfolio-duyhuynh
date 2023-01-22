@@ -8,7 +8,10 @@ const Experience = () => {
   const { nav } = useContext(Portfolio);
 
   return (
-    <div name="experience" className="w-full md:h-screen bg-[#0a192f] text-gray-300 pt-20">
+    <div
+      name="experience"
+      className="w-full md:h-screen bg-[#0a192f] text-gray-300 pt-20 lg:pt-40"
+    >
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
