@@ -20,19 +20,19 @@ const Home = () => {
         </h1>
         <h2 className="text-4xl md:text-5xl xl:text-6xl font-bold text-typing">
           <Typed
-            strings={[
-              "I'm a Frontend Developer.",
-              "I can work with HTML, CSS, JS, ReactJS, SQL, GitHub and new technologies.",
-            ]}
+            strings={["I'm a Frontend Developer."]}
             typeSpeed={79}
             backSpeed={39}
             loop
             className="leading-normal"
           ></Typed>
         </h2>
+        <h3 className="text-5xl md:text-5xl text-typing leading-loose">
+          I can work with HTML, CSS, JS, ReactJS, SQL, GitHub and new technologies.
+        </h3>
 
         {/* Social icons */}
-        <div className={!nav ? "xl:hidden absolute top-[77%]" : "hidden"}>
+        {/* <div className={!nav ? "xl:hidden absolute top-[77%]" : "hidden"}>
           <ul className="flex mt-2">
             <li className="pl-0">
               <a
@@ -75,7 +75,7 @@ const Home = () => {
               </a>
             </li>
           </ul>
-        </div>
+        </div> */}
 
         {/* View to projects */}
         <div className={!nav ? "absolute top-[87%] xl:top-[82%]" : "hidden"}>
