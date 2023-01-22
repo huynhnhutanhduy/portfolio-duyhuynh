@@ -1,0 +1,58 @@
+/* Custom project image hover */
+.content-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+.content-div:hover {
+  background-image: linear-gradient(
+    to right,
+    rgba(112, 157, 255, 0.8),
+    hsla(242, 74%, 61%, 0.8)
+  ) !important;
+}
+
+/* Custom text subname */
+.text-subname {
+  background-image: linear-gradient(
+    to right top,
+    rgb(219, 234, 254),
+    rgb(147, 197, 253),
+    rgb(59, 130, 246)
+  );
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+/* Custom text name */
+.text-name {
+  background-image: linear-gradient(
+    to right top,
+    rgb(134, 239, 172),
+    rgb(59, 130, 246),
+    rgb(147, 51, 234)
+  );
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+/* Custom text typing */
+.text-typing {
+  background-image: linear-gradient(
+    to right top,
+    rgb(248, 113, 113),
+    rgb(209, 213, 219),
+    rgb(59, 130, 246)
+  );
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+/* Custom cursor react-typed */
+.typed-cursor {
+  animation: none !important;
+}
