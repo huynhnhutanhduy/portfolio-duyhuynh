@@ -18,7 +18,7 @@ const Home = () => {
         <h1 className="text-4xl md:text-5xl xl:text-6xl font-bold text-name leading-normal">
           Duy Huynh,
         </h1>
-        <h2 className="text-4xl md:text-5xl xl:text-6xl font-bold text-typing">
+        <h2 className="text-3xl md:text-5xl xl:text-6xl font-bold text-typing">
           <Typed
             strings={["I'm a Frontend Developer."]}
             typeSpeed={79}
@@ -27,12 +27,12 @@ const Home = () => {
             className="leading-normal"
           ></Typed>
         </h2>
-        <h3 className="text-5xl md:text-5xl text-typing leading-loose">
+        <h3 className="text-2xl text-cyan-400 leading-relaxed">
           I can work with HTML, CSS, JS, ReactJS, SQL, GitHub and new technologies.
         </h3>
 
         {/* Social icons */}
-        {/* <div className={!nav ? "xl:hidden absolute top-[77%]" : "hidden"}>
+        <div className={!nav ? "xl:hidden absolute top-3/4" : "hidden"}>
           <ul className="flex mt-2">
             <li className="pl-0">
               <a
@@ -75,10 +75,10 @@ const Home = () => {
               </a>
             </li>
           </ul>
-        </div> */}
+        </div>
 
         {/* View to projects */}
-        <div className={!nav ? "absolute top-[87%] xl:top-[82%]" : "hidden"}>
+        <div className={!nav ? "absolute top-[86%] xl:top-3/4" : "hidden"}>
           <Link to="projects" smooth={true} duration={500}>
             <button className="text-white group border-2 px-6 py-3 flex items-center hover:bg-pink-600 hover:border-pink-600 rounded-lg duration-300">
               View Projects <HiArrowNarrowRight className="ml-3" />
