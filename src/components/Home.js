@@ -32,7 +32,7 @@ const Home = () => {
         </h3>
 
         {/* Social icons */}
-        <div className={!nav ? "xl:hidden absolute top-3/4" : "hidden"}>
+        <div className={!nav ? "xl:hidden absolute top-[77%]" : "hidden"}>
           <ul className="flex mt-2">
             <li className="pl-0">
               <a
@@ -78,7 +78,7 @@ const Home = () => {
         </div>
 
         {/* View to projects */}
-        <div className={!nav ? "absolute top-[86%] xl:top-3/4" : "hidden"}>
+        <div className={!nav ? "absolute top-[87%] xl:top-3/4" : "hidden"}>
           <Link to="projects" smooth={true} duration={500}>
             <button className="text-white group border-2 px-6 py-3 flex items-center hover:bg-pink-600 hover:border-pink-600 rounded-lg duration-300">
               View Projects <HiArrowNarrowRight className="ml-3" />
