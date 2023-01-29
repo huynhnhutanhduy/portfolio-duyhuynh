@@ -3,15 +3,7 @@ import GameProject from "../assets/projects/game.png";
 import LaslesVPNProject from "../assets/projects/lasles.png";
 import EPTProject from "../assets/projects/ept.png";
 import CoffeeProject from "../assets/projects/coffee.png";
-
-import HTML from "../assets/html.png";
-import CSS from "../assets/css.png";
-import JavaScript from "../assets/javascript.png";
-import ReactJS from "../assets/react.png";
-import TailwindCSS from "../assets/tailwind.png";
-import GitHub from "../assets/github.png";
-import SQL from "../assets/sql.png";
-import Figma from "../assets/figma.png";
+import WeatherProject from "../assets/projects/weather.png";
 
 export const projects = [
   {
@@ -54,47 +46,12 @@ export const projects = [
     live: "",
     link: "https://www.figma.com/file/QU9nriM1dUp4tfUun2fuY6/The-Lagom-Coffee-Project?node-id=0%3A1&t=TcGuH0JihROrjg21-1",
   },
-];
-
-export const skills = [
-  {
-    id: 1,
-    image: HTML,
-    name: "HTML",
-  },
-  {
-    id: 2,
-    image: CSS,
-    name: "CSS",
-  },
-  {
-    id: 3,
-    image: JavaScript,
-    name: "JavaScript",
-  },
-  {
-    id: 4,
-    image: ReactJS,
-    name: "ReactJS",
-  },
-  {
-    id: 5,
-    image: TailwindCSS,
-    name: "Tailwind CSS",
-  },
   {
     id: 6,
-    image: SQL,
-    name: "SQL",
-  },
-  {
-    id: 7,
-    image: GitHub,
-    name: "GitHub",
-  },
-  {
-    id: 8,
-    image: Figma,
-    name: "Figma",
+    name: "ReactJS Application",
+    image: WeatherProject,
+    github: "https://github.com/huynhnhutanhduy/weather-app",
+    live: "https://weather-app-five-woad.vercel.app/",
+    link: "",
   },
 ];

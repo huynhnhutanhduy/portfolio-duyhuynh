@@ -1,20 +1,22 @@
 import React from "react";
-import { projects } from "../data/projects";
+import { certifications } from "../data/certifications";
 
-const Projects = () => {
+const Certifications = () => {
   return (
-    <div name="projects" className="w-full md:h-screen bg-[#0a192f] text-gray-300 pt-20">
+    <div name="certifications" className="w-full md:h-screen bg-[#0a192f] text-gray-300 pt-20">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
-          <p className="text-4xl font-bold inline border-b-4 border-pink-600">Projects</p>
-          <p className="my-8">There are some of my recent projects</p>
+          <p className="text-4xl font-bold inline border-b-4 border-pink-600">
+            Certifications
+          </p>
+          <p className="my-8">There are some of my recent certifications</p>
         </div>
 
         {/* Container */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 mb-8">
           {/* Grid Item */}
-          {projects.map((item) => (
+          {certifications.map((item) => (
             <div
               key={item.id}
               style={{ backgroundImage: `url(${item.image})` }}
@@ -26,14 +28,9 @@ const Projects = () => {
                   {item.name}
                 </span>
                 <div className="pt-8 text-center">
-                  <a href={item.live} target="_blank" rel="noopener noreferrer">
+                  <a href={item.link} target="_blank" rel="noopener noreferrer">
                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-pink-600 hover:text-white">
-                      Demo
-                    </button>
-                  </a>
-                  <a href={item.github || item.link} target="_blank" rel="noopener noreferrer">
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-pink-600 hover:text-white">
-                      Code
+                      Link Certificate
                     </button>
                   </a>
                 </div>
@@ -46,4 +43,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Certifications;

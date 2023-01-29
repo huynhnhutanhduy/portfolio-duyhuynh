@@ -40,6 +40,11 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
+            <Link to="certifications" smooth={true} duration={500}>
+              Certifications
+            </Link>
+          </li>
+          <li>
             <Link to="experience" smooth={true} duration={500}>
               Experience
             </Link>
@@ -79,6 +84,11 @@ const Navbar = () => {
           <li className="py-6 text-4xl">
             <Link onClick={handleClickBar} to="projects" smooth={true} duration={500}>
               Projects
+            </Link>
+          </li>
+          <li className="py-6 text-4xl">
+            <Link onClick={handleClickBar} to="certifications" smooth={true} duration={500}>
+              Certifications
             </Link>
           </li>
           <li className="py-6 text-4xl">
