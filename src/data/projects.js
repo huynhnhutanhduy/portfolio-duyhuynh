@@ -9,13 +9,21 @@ export const projects = [
   {
     id: 1,
     name: "ReactJS Application",
+    image: WeatherProject,
+    github: "https://github.com/huynhnhutanhduy/weather-app",
+    live: "https://weather-app-five-woad.vercel.app/",
+    link: "",
+  },
+  {
+    id: 2,
+    name: "ReactJS Application",
     image: MusicProject,
     github: "https://github.com/huynhnhutanhduy/simple-music-player-app",
     live: "https://simple-music-player-app.vercel.app/",
     link: "",
   },
   {
-    id: 2,
+    id: 3,
     name: "ReactJS Application",
     image: GameProject,
     github: "https://github.com/huynhnhutanhduy/simple-tictactoe-game",
@@ -23,19 +31,11 @@ export const projects = [
     link: "",
   },
   {
-    id: 3,
+    id: 4,
     name: "Interface from Figma to HTML CSS",
     image: LaslesVPNProject,
     github: "https://github.com/huynhnhutanhduy/landingpage-laslesVPN",
     live: "https://huynhnhutanhduy.github.io/landingpage-laslesVPN/",
-    link: "",
-  },
-  {
-    id: 4,
-    name: "WordPress Application",
-    image: EPTProject,
-    github: "https://github.com/huynhnhutanhduy/crawler_fptshop",
-    live: "https://eptofficial.xyz/ ",
     link: "",
   },
   {
@@ -48,10 +48,10 @@ export const projects = [
   },
   {
     id: 6,
-    name: "ReactJS Application",
-    image: WeatherProject,
-    github: "https://github.com/huynhnhutanhduy/weather-app",
-    live: "https://weather-app-five-woad.vercel.app/",
+    name: "WordPress Application",
+    image: EPTProject,
+    github: "https://github.com/huynhnhutanhduy/crawler_fptshop",
+    live: "https://eptofficial.xyz/ ",
     link: "",
   },
 ];
