@@ -23,7 +23,7 @@ function App() {
   };
 
   const handleToTop = () => {
-    setGoToTop(window.scrollY >= 50);
+    setGoToTop(window.scrollY >= 500);
   };
 
   useEffect(() => {
@@ -45,7 +45,7 @@ function App() {
         <Experience />
         <Footer />
         {goToTop && (
-          <Link to="home" smooth={true} duration={500}>
+          <Link to="home" smooth={true} duration={500} activeClass="active" spy={true}>
             <button className="hidden md:block fixed right-8 bottom-5 cursor-pointer text-white text-5xl">
               <BsArrowUpCircleFill className="hover:text-pink-600 hover:bg-white hover:rounded-full" />
             </button>

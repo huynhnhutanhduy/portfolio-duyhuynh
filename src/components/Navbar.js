@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
+import Logo from "../assets/logo.png";
 import { FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import Logo from "../assets/logo.png";
 import { Link } from "react-scroll";
 import { Portfolio } from "../App";
 
@@ -20,32 +20,38 @@ const Navbar = () => {
       <div>
         <ul className="hidden md:flex">
           <li>
-            <Link to="home" smooth={true} duration={500}>
+            <Link to="home" smooth={true} duration={500} activeClass="active" spy={true}>
               Home
             </Link>
           </li>
           <li>
-            <Link to="about" smooth={true} duration={500}>
+            <Link to="about" smooth={true} duration={500} activeClass="active" spy={true}>
               About
             </Link>
           </li>
           <li>
-            <Link to="skills" smooth={true} duration={500}>
+            <Link to="skills" smooth={true} duration={500} activeClass="active" spy={true}>
               Skills
             </Link>
           </li>
           <li>
-            <Link to="projects" smooth={true} duration={500}>
+            <Link to="projects" smooth={true} duration={500} activeClass="active" spy={true}>
               Projects
             </Link>
           </li>
           <li>
-            <Link to="certifications" smooth={true} duration={500}>
+            <Link
+              to="certifications"
+              smooth={true}
+              duration={500}
+              activeClass="active"
+              spy={true}
+            >
               Certifications
             </Link>
           </li>
           <li>
-            <Link to="experience" smooth={true} duration={500}>
+            <Link to="experience" smooth={true} duration={500} activeClass="active" spy={true}>
               Experience
             </Link>
           </li>
