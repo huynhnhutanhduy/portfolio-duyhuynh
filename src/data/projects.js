@@ -31,16 +31,16 @@ export const projects = [
     live: "https://simple-music-player-app.vercel.app/",
     link: "",
   },
+  // {
+  //   id: 4,
+  //   name: "ReactJS Application",
+  //   image: GameProject,
+  //   github: "https://github.com/huynhnhutanhduy/simple-tictactoe-game",
+  //   live: "https://simple-tictactoe-game.vercel.app/",
+  //   link: "",
+  // },
   {
     id: 4,
-    name: "ReactJS Application",
-    image: GameProject,
-    github: "https://github.com/huynhnhutanhduy/simple-tictactoe-game",
-    live: "https://simple-tictactoe-game.vercel.app/",
-    link: "",
-  },
-  {
-    id: 5,
     name: "Interface from Figma to HTML CSS",
     image: LaslesVPNProject,
     github: "https://github.com/huynhnhutanhduy/landingpage-laslesVPN",
@@ -48,7 +48,7 @@ export const projects = [
     link: "",
   },
   {
-    id: 6,
+    id: 5,
     name: "Figma Application",
     image: CoffeeProject,
     github: "",
@@ -56,7 +56,7 @@ export const projects = [
     link: "https://www.figma.com/file/QU9nriM1dUp4tfUun2fuY6/The-Lagom-Coffee-Project?node-id=0%3A1&t=TcGuH0JihROrjg21-1",
   },
   {
-    id: 7,
+    id: 6,
     name: "WordPress Application",
     image: EPTProject,
     github: "https://github.com/huynhnhutanhduy/crawler_fptshop",
