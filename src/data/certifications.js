@@ -19,6 +19,6 @@ export const certifications = [
     id: 3,
     image: TOEIC,
     name: "TOEIC Certificate",
-    link: "https://i.imgur.com/m2dKfd7.jpg",
+    link: "https://i.imgur.com/9mD2ohx.jpg",
   },
 ];
