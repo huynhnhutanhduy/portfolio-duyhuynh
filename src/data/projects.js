@@ -1,5 +1,5 @@
 import MusicProject from "../assets/projects/music.png";
-import GameProject from "../assets/projects/game.png";
+// import GameProject from "../assets/projects/game.png";
 import LaslesVPNProject from "../assets/projects/lasles.png";
 import EPTProject from "../assets/projects/ept.png";
 import CoffeeProject from "../assets/projects/coffee.png";
