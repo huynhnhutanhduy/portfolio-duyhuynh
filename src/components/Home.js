@@ -18,7 +18,7 @@ const Home = () => {
         <h1 className="text-4xl md:text-5xl xl:text-6xl font-bold text-name leading-normal">
           Duy Huynh,
         </h1>
-        <h2 className="text-xl md:text-5xl xl:text-6xl font-bold text-typing">
+        <h2 className="text-2xl md:text-5xl xl:text-6xl font-bold text-typing">
           <Typed
             strings={["I'm a Frontend Developer."]}
             typeSpeed={79}
