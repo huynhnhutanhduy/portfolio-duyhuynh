@@ -1,13 +1,15 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-import About from "./components/About";
-import Home from "./components/Home";
-import Navbar from "./components/Navbar";
-import Skills from "./components/Skills";
-import Projects from "./components/Projects";
-import Certifications from "./components/Certifications";
-import Experience from "./components/Experience";
-import Footer from "./components/Footer";
+import {
+  Navbar,
+  Home,
+  About,
+  Skills,
+  Projects,
+  Certifications,
+  Experience,
+  Footer,
+} from "./components";
 import { BsArrowUpCircleFill } from "react-icons/bs";
 import { Link } from "react-scroll";
 
